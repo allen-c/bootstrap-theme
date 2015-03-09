@@ -1,0 +1,38 @@
+/*
+Theme Name: Bootstrap
+Description: A Bootstrap theme
+Author: Allen Cole
+Version: 1.0
+Tags: responsive, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+
+/* @import url('../bootstrap/css/bootstrap.css'); 
+@import url('../bootstrap/css/bootstrap-theme.css'); */
+
+/* Custom CSS */
+
+/* Fix bootstrap fixed navbar overlapping content */
+body {
+padding:58px;
+}
+
+
+/* Fix list-style applying to thumbnails */
+.thumbnails li{list-style:none!important;}
+
+
+/* Carousel customization */
+.carousel {
+	max-height: 670px;
+}
+.carousel-inner > .item > img {
+	margin: 0 auto;
+}
+.front2 img {
+    max-height: 600px;
+    overflow: hidden;
+}
